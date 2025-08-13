@@ -11,8 +11,7 @@ def get_dynamodb_client():
         "dynamodb",
         region_name=settings.aws_region,
         aws_access_key_id=settings.aws_access_key_id,
-        aws_secret_access_key=settings.aws_secret_access_key,
-        endpoint_url=settings.aws_dynamodb_endpoint
+        aws_secret_access_key=settings.aws_secret_access_key
     )
 
 def get_dynamodb_resource():
@@ -21,10 +20,9 @@ def get_dynamodb_resource():
         region_name=settings.aws_region,
         aws_access_key_id=settings.aws_access_key_id,
         aws_secret_access_key=settings.aws_secret_access_key,
-        endpoint_url=settings.aws_dynamodb_endpoint
     )
 
-async def init_dynamodb_table(table_name: str):
+def init_dynamodb_table(table_name: str):
     dynamodb = get_dynamodb_resource()
     try:
         table = dynamodb.Table(table_name)
@@ -40,14 +38,14 @@ async def init_dynamodb_table(table_name: str):
                     {"AttributeName": "id", "KeyType": "HASH"},
                 ],
                 AttributeDefinitions=[
-                    {"AttributeName": "id", "AttributeType": "S"},
+                    {"AttributeName": "id", "AttributeType": "N"},
                 ],
                 ProvisionedThroughput={
                     "ReadCapacityUnits": 5,
                     "WriteCapacityUnits": 5,
                 },
             )
-            await table.wait_until_exists()
+            table.wait_until_exists()
             logger.debug(f"Table '{table_name}' created successfully.")
         else:
             logger.error(f"Error creating table '{table_name}': {e}")

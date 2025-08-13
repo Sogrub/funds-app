@@ -13,7 +13,10 @@ async def lifespan(app: FastAPI):
     # 🚀 Startup
     logger.info("App is starting...")
     if settings.app_env == "development":
-        await init_dynamodb_table("users")
+        init_dynamodb_table("users")
+        init_dynamodb_table("funds")
+        init_dynamodb_table("subscriptions")
+        init_dynamodb_table("transactions")
     yield
     # 🛑 Shutdown
     logger.info("App is shutting down...")

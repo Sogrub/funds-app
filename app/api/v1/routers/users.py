@@ -1,15 +1,19 @@
 from fastapi import APIRouter
 from app.modules.users.models import UserModel
-from app.modules.users.repository import UserRepository
+from app.modules.users.services import UserService
 
-router = APIRouter(prefix="/users", tags=["users"])
+router = APIRouter(prefix="/users", tags=["Users"])
 
-userRepository = UserRepository()
+userService = UserService()
 
 @router.get("/")
 def list_users():
-    return userRepository.list()
+    return userService.list_users()
 
 @router.post("/")
 def create_user(user: UserModel):
-    return userRepository.create(user)
+    return userService.create_user(user)
+
+@router.put("/{id}/balance")
+def update_balance(id: int, balance: int):
+    return userService.update_balance(id, balance)
