@@ -1,0 +1,552 @@
+2025-08-12 18:44:12 | DEBUG    | main:24 - App is starting...
+2025-08-12 18:44:12 | DEBUG    | main:14 - App is starting...
+2025-08-12 18:46:47 | DEBUG    | main:24 - App is starting...
+2025-08-12 18:46:47 | DEBUG    | main:14 - App is starting...
+2025-08-12 18:48:52 | DEBUG    | main:19 - App is shutting down...
+2025-08-12 18:51:07 | DEBUG    | main:24 - App is starting...
+2025-08-12 18:51:07 | DEBUG    | main:14 - App is starting...
+2025-08-12 18:51:09 | DEBUG    | main:19 - App is shutting down...
+2025-08-12 18:51:13 | DEBUG    | main:24 - App is starting...
+2025-08-12 18:51:13 | DEBUG    | main:14 - App is starting...
+2025-08-12 18:52:10 | DEBUG    | main:19 - App is shutting down...
+2025-08-12 18:53:17 | DEBUG    | main:24 - App is starting...
+2025-08-12 18:53:17 | DEBUG    | main:14 - App is starting...
+2025-08-12 18:54:11 | DEBUG    | main:19 - App is shutting down...
+2025-08-12 18:54:12 | DEBUG    | main:24 - App is starting...
+2025-08-12 18:54:12 | INFO     | server:84 - Started server process [33624]
+2025-08-12 18:54:12 | INFO     | server:84 - Started server process [33624]
+2025-08-12 18:54:12 | INFO     | on:48 - Waiting for application startup.
+2025-08-12 18:54:12 | INFO     | on:48 - Waiting for application startup.
+2025-08-12 18:54:12 | DEBUG    | main:14 - App is starting...
+2025-08-12 18:54:12 | INFO     | on:62 - Application startup complete.
+2025-08-12 18:54:12 | INFO     | on:62 - Application startup complete.
+2025-08-12 18:54:17 | INFO     | server:264 - Shutting down
+2025-08-12 18:54:17 | INFO     | server:264 - Shutting down
+2025-08-12 18:54:18 | INFO     | on:67 - Waiting for application shutdown.
+2025-08-12 18:54:18 | INFO     | on:67 - Waiting for application shutdown.
+2025-08-12 18:54:18 | DEBUG    | main:19 - App is shutting down...
+2025-08-12 18:54:18 | INFO     | on:76 - Application shutdown complete.
+2025-08-12 18:54:18 | INFO     | on:76 - Application shutdown complete.
+2025-08-12 18:54:18 | INFO     | server:94 - Finished server process [33624]
+2025-08-12 18:54:18 | INFO     | server:94 - Finished server process [33624]
+2025-08-12 18:54:23 | DEBUG    | main:24 - App is starting...
+2025-08-12 18:54:23 | INFO     | server:84 - Started server process [6400]
+2025-08-12 18:54:23 | INFO     | server:84 - Started server process [6400]
+2025-08-12 18:54:23 | INFO     | on:48 - Waiting for application startup.
+2025-08-12 18:54:23 | INFO     | on:48 - Waiting for application startup.
+2025-08-12 18:54:23 | DEBUG    | main:14 - App is starting...
+2025-08-12 18:54:23 | INFO     | on:62 - Application startup complete.
+2025-08-12 18:54:23 | INFO     | on:62 - Application startup complete.
+2025-08-12 18:54:49 | INFO     | server:264 - Shutting down
+2025-08-12 18:54:49 | INFO     | server:264 - Shutting down
+2025-08-12 18:54:49 | INFO     | on:67 - Waiting for application shutdown.
+2025-08-12 18:54:49 | INFO     | on:67 - Waiting for application shutdown.
+2025-08-12 18:54:49 | DEBUG    | main:19 - App is shutting down...
+2025-08-12 18:54:49 | INFO     | on:76 - Application shutdown complete.
+2025-08-12 18:54:49 | INFO     | on:76 - Application shutdown complete.
+2025-08-12 18:54:49 | INFO     | server:94 - Finished server process [6400]
+2025-08-12 18:54:49 | INFO     | server:94 - Finished server process [6400]
+2025-08-12 18:54:50 | INFO     | server:84 - Started server process [27712]
+2025-08-12 18:54:50 | INFO     | server:84 - Started server process [27712]
+2025-08-12 18:54:50 | INFO     | on:48 - Waiting for application startup.
+2025-08-12 18:54:50 | INFO     | on:48 - Waiting for application startup.
+2025-08-12 18:54:50 | INFO     | main:14 - App is starting...
+2025-08-12 18:54:50 | INFO     | on:62 - Application startup complete.
+2025-08-12 18:54:50 | INFO     | on:62 - Application startup complete.
+2025-08-12 18:55:59 | INFO     | server:264 - Shutting down
+2025-08-12 18:55:59 | INFO     | server:264 - Shutting down
+2025-08-12 18:55:59 | INFO     | on:67 - Waiting for application shutdown.
+2025-08-12 18:55:59 | INFO     | on:67 - Waiting for application shutdown.
+2025-08-12 18:55:59 | INFO     | main:19 - App is shutting down...
+2025-08-12 18:55:59 | INFO     | on:76 - Application shutdown complete.
+2025-08-12 18:55:59 | INFO     | on:76 - Application shutdown complete.
+2025-08-12 18:55:59 | INFO     | server:94 - Finished server process [27712]
+2025-08-12 18:55:59 | INFO     | server:94 - Finished server process [27712]
+2025-08-12 18:56:00 | INFO     | server:84 - Started server process [31900]
+2025-08-12 18:56:00 | INFO     | server:84 - Started server process [31900]
+2025-08-12 18:56:00 | INFO     | on:48 - Waiting for application startup.
+2025-08-12 18:56:00 | INFO     | on:48 - Waiting for application startup.
+2025-08-12 18:56:00 | INFO     | main:14 - App is starting...
+2025-08-12 18:56:00 | INFO     | on:62 - Application startup complete.
+2025-08-12 18:56:00 | INFO     | on:62 - Application startup complete.
+2025-08-12 18:56:15 | INFO     | server:264 - Shutting down
+2025-08-12 18:56:15 | INFO     | server:264 - Shutting down
+2025-08-12 18:56:15 | INFO     | on:67 - Waiting for application shutdown.
+2025-08-12 18:56:15 | INFO     | on:67 - Waiting for application shutdown.
+2025-08-12 18:56:15 | INFO     | main:19 - App is shutting down...
+2025-08-12 18:56:15 | INFO     | on:76 - Application shutdown complete.
+2025-08-12 18:56:15 | INFO     | on:76 - Application shutdown complete.
+2025-08-12 18:56:15 | INFO     | server:94 - Finished server process [31900]
+2025-08-12 18:56:15 | INFO     | server:94 - Finished server process [31900]
+2025-08-12 18:56:16 | INFO     | server:84 - Started server process [34560]
+2025-08-12 18:56:16 | INFO     | server:84 - Started server process [34560]
+2025-08-12 18:56:16 | INFO     | on:48 - Waiting for application startup.
+2025-08-12 18:56:16 | INFO     | on:48 - Waiting for application startup.
+2025-08-12 18:56:16 | INFO     | main:14 - App is starting...
+2025-08-12 18:56:16 | DEBUG    | db:32 - Table 'users' already exists.
+2025-08-12 18:56:16 | INFO     | on:62 - Application startup complete.
+2025-08-12 18:56:16 | INFO     | on:62 - Application startup complete.
+2025-08-12 18:57:14 | INFO     | h11_impl:473 - 127.0.0.1:59669 - "GET /users/ HTTP/1.1" 200
+2025-08-12 18:57:32 | INFO     | server:264 - Shutting down
+2025-08-12 18:57:32 | INFO     | server:264 - Shutting down
+2025-08-12 18:57:32 | INFO     | on:67 - Waiting for application shutdown.
+2025-08-12 18:57:32 | INFO     | on:67 - Waiting for application shutdown.
+2025-08-12 18:57:32 | INFO     | main:19 - App is shutting down...
+2025-08-12 18:57:32 | INFO     | on:76 - Application shutdown complete.
+2025-08-12 18:57:32 | INFO     | on:76 - Application shutdown complete.
+2025-08-12 18:57:32 | INFO     | server:94 - Finished server process [34560]
+2025-08-12 18:57:32 | INFO     | server:94 - Finished server process [34560]
+2025-08-12 18:57:33 | INFO     | server:84 - Started server process [31576]
+2025-08-12 18:57:33 | INFO     | server:84 - Started server process [31576]
+2025-08-12 18:57:33 | INFO     | on:48 - Waiting for application startup.
+2025-08-12 18:57:33 | INFO     | on:48 - Waiting for application startup.
+2025-08-12 18:57:33 | INFO     | main:14 - App is starting...
+2025-08-12 18:57:33 | DEBUG    | db:32 - Table 'users' already exists.
+2025-08-12 18:57:33 | INFO     | on:62 - Application startup complete.
+2025-08-12 18:57:33 | INFO     | on:62 - Application startup complete.
+2025-08-12 18:57:35 | INFO     | h11_impl:473 - 127.0.0.1:59686 - "GET /users/ HTTP/1.1" 500
+2025-08-12 18:57:35 | ERROR    | h11_impl:408 - Exception in ASGI application
+Traceback (most recent call last):
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 403, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.scope, self.receive, self.send
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\starlette\applications.py", line 113, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    raise exc
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\starlette\middleware\cors.py", line 85, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\starlette\routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\starlette\routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\starlette\routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\starlette\routing.py", line 78, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\starlette\routing.py", line 75, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\fastapi\routing.py", line 302, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\fastapi\routing.py", line 215, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\starlette\concurrency.py", line 38, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2476, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 967, in run
+    result = context.run(func, *args)
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\app\api\v1\routers\users.py", line 11, in list_users
+    return userRepository.list().dict()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'dict'
+2025-08-12 18:57:35 | ERROR    | h11_impl:408 - Exception in ASGI application
+Traceback (most recent call last):
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 403, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.scope, self.receive, self.send
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\starlette\applications.py", line 113, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    raise exc
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\starlette\middleware\cors.py", line 85, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\starlette\routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\starlette\routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\starlette\routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\starlette\routing.py", line 78, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\starlette\routing.py", line 75, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\fastapi\routing.py", line 302, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\fastapi\routing.py", line 215, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\starlette\concurrency.py", line 38, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2476, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 967, in run
+    result = context.run(func, *args)
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\app\api\v1\routers\users.py", line 11, in list_users
+    return userRepository.list().dict()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'dict'
+2025-08-12 18:57:40 | INFO     | server:264 - Shutting down
+2025-08-12 18:57:40 | INFO     | server:264 - Shutting down
+2025-08-12 18:57:41 | INFO     | on:67 - Waiting for application shutdown.
+2025-08-12 18:57:41 | INFO     | on:67 - Waiting for application shutdown.
+2025-08-12 18:57:41 | INFO     | main:19 - App is shutting down...
+2025-08-12 18:57:41 | INFO     | on:76 - Application shutdown complete.
+2025-08-12 18:57:41 | INFO     | on:76 - Application shutdown complete.
+2025-08-12 18:57:41 | INFO     | server:94 - Finished server process [31576]
+2025-08-12 18:57:41 | INFO     | server:94 - Finished server process [31576]
+2025-08-12 18:57:41 | INFO     | server:84 - Started server process [18568]
+2025-08-12 18:57:41 | INFO     | server:84 - Started server process [18568]
+2025-08-12 18:57:41 | INFO     | on:48 - Waiting for application startup.
+2025-08-12 18:57:41 | INFO     | on:48 - Waiting for application startup.
+2025-08-12 18:57:41 | INFO     | main:14 - App is starting...
+2025-08-12 18:57:41 | DEBUG    | db:32 - Table 'users' already exists.
+2025-08-12 18:57:41 | INFO     | on:62 - Application startup complete.
+2025-08-12 18:57:41 | INFO     | on:62 - Application startup complete.
+2025-08-12 18:58:06 | INFO     | server:264 - Shutting down
+2025-08-12 18:58:06 | INFO     | server:264 - Shutting down
+2025-08-12 18:58:06 | INFO     | on:67 - Waiting for application shutdown.
+2025-08-12 18:58:06 | INFO     | on:67 - Waiting for application shutdown.
+2025-08-12 18:58:06 | INFO     | main:19 - App is shutting down...
+2025-08-12 18:58:06 | INFO     | on:76 - Application shutdown complete.
+2025-08-12 18:58:06 | INFO     | on:76 - Application shutdown complete.
+2025-08-12 18:58:06 | INFO     | server:94 - Finished server process [18568]
+2025-08-12 18:58:06 | INFO     | server:94 - Finished server process [18568]
+2025-08-12 18:58:07 | INFO     | server:84 - Started server process [7356]
+2025-08-12 18:58:07 | INFO     | server:84 - Started server process [7356]
+2025-08-12 18:58:07 | INFO     | on:48 - Waiting for application startup.
+2025-08-12 18:58:07 | INFO     | on:48 - Waiting for application startup.
+2025-08-12 18:58:07 | INFO     | main:14 - App is starting...
+2025-08-12 18:58:07 | DEBUG    | db:32 - Table 'users' already exists.
+2025-08-12 18:58:07 | INFO     | on:62 - Application startup complete.
+2025-08-12 18:58:07 | INFO     | on:62 - Application startup complete.
+2025-08-12 18:58:10 | INFO     | h11_impl:473 - 127.0.0.1:59711 - "GET /docs HTTP/1.1" 200
+2025-08-12 18:58:10 | INFO     | h11_impl:473 - 127.0.0.1:59711 - "GET /openapi.json HTTP/1.1" 200
+2025-08-12 18:58:21 | INFO     | h11_impl:473 - 127.0.0.1:59712 - "POST /users/ HTTP/1.1" 500
+2025-08-12 18:58:21 | ERROR    | h11_impl:408 - Exception in ASGI application
+Traceback (most recent call last):
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 403, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.scope, self.receive, self.send
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\starlette\applications.py", line 113, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    raise exc
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\starlette\middleware\cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\starlette\middleware\cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\starlette\routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\starlette\routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\starlette\routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\starlette\routing.py", line 78, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\starlette\routing.py", line 75, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\fastapi\routing.py", line 302, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\fastapi\routing.py", line 215, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\starlette\concurrency.py", line 38, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2476, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 967, in run
+    result = context.run(func, *args)
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\app\api\v1\routers\users.py", line 15, in create_user
+    return userRepository.create(user)
+           ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'UserRepository' object has no attribute 'create'
+2025-08-12 18:58:21 | ERROR    | h11_impl:408 - Exception in ASGI application
+Traceback (most recent call last):
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 403, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.scope, self.receive, self.send
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\fastapi\applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\starlette\applications.py", line 113, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    raise exc
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\starlette\middleware\cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\starlette\middleware\cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\starlette\routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\starlette\routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\starlette\routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\starlette\routing.py", line 78, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\starlette\routing.py", line 75, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\fastapi\routing.py", line 302, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\fastapi\routing.py", line 215, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\starlette\concurrency.py", line 38, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2476, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 967, in run
+    result = context.run(func, *args)
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\app\api\v1\routers\users.py", line 15, in create_user
+    return userRepository.create(user)
+           ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'UserRepository' object has no attribute 'create'
+2025-08-12 18:58:50 | INFO     | server:264 - Shutting down
+2025-08-12 18:58:50 | INFO     | server:264 - Shutting down
+2025-08-12 18:58:50 | INFO     | on:67 - Waiting for application shutdown.
+2025-08-12 18:58:50 | INFO     | on:67 - Waiting for application shutdown.
+2025-08-12 18:58:50 | INFO     | main:19 - App is shutting down...
+2025-08-12 18:58:50 | INFO     | on:76 - Application shutdown complete.
+2025-08-12 18:58:50 | INFO     | on:76 - Application shutdown complete.
+2025-08-12 18:58:50 | INFO     | server:94 - Finished server process [7356]
+2025-08-12 18:58:50 | INFO     | server:94 - Finished server process [7356]
+2025-08-12 18:58:51 | INFO     | server:84 - Started server process [19260]
+2025-08-12 18:58:51 | INFO     | server:84 - Started server process [19260]
+2025-08-12 18:58:51 | INFO     | on:48 - Waiting for application startup.
+2025-08-12 18:58:51 | INFO     | on:48 - Waiting for application startup.
+2025-08-12 18:58:51 | INFO     | main:14 - App is starting...
+2025-08-12 18:58:51 | DEBUG    | db:32 - Table 'users' already exists.
+2025-08-12 18:58:51 | INFO     | on:62 - Application startup complete.
+2025-08-12 18:58:51 | INFO     | on:62 - Application startup complete.
+2025-08-12 18:58:54 | INFO     | h11_impl:473 - 127.0.0.1:59766 - "POST /users/ HTTP/1.1" 200
+2025-08-12 18:59:17 | INFO     | h11_impl:473 - 127.0.0.1:59777 - "GET /users/ HTTP/1.1" 200
+2025-08-12 20:14:53 | INFO     | server:264 - Shutting down
+2025-08-12 20:14:53 | INFO     | server:264 - Shutting down
+2025-08-12 20:14:53 | INFO     | server:94 - Finished server process [19260]
+2025-08-12 20:14:53 | INFO     | server:94 - Finished server process [19260]
+2025-08-12 20:14:53 | ERROR    | on:134 - Traceback (most recent call last):
+  File "C:\Python313\Lib\asyncio\runners.py", line 195, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "C:\Python313\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Python313\Lib\asyncio\base_events.py", line 712, in run_until_complete
+    self.run_forever()
+    ~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\asyncio\base_events.py", line 683, in run_forever
+    self._run_once()
+    ~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\asyncio\base_events.py", line 2042, in _run_once
+    handle._run()
+    ~~~~~~~~~~~^^
+  File "C:\Python313\Lib\asyncio\events.py", line 89, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\uvicorn\server.py", line 70, in serve
+    with self.capture_signals():
+         ~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\contextlib.py", line 148, in __exit__
+    next(self.gen)
+    ~~~~^^^^^^^^^^
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\uvicorn\server.py", line 331, in capture_signals
+    signal.raise_signal(captured_signal)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\asyncio\runners.py", line 157, in _on_sigint
+    raise KeyboardInterrupt()
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\starlette\routing.py", line 701, in lifespan
+    await receive()
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\uvicorn\lifespan\on.py", line 137, in receive
+    return await self.receive_queue.get()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\asyncio\queues.py", line 186, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+2025-08-12 20:14:53 | ERROR    | on:134 - Traceback (most recent call last):
+  File "C:\Python313\Lib\asyncio\runners.py", line 195, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "C:\Python313\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Python313\Lib\asyncio\base_events.py", line 712, in run_until_complete
+    self.run_forever()
+    ~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\asyncio\base_events.py", line 683, in run_forever
+    self._run_once()
+    ~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\asyncio\base_events.py", line 2042, in _run_once
+    handle._run()
+    ~~~~~~~~~~~^^
+  File "C:\Python313\Lib\asyncio\events.py", line 89, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\uvicorn\server.py", line 70, in serve
+    with self.capture_signals():
+         ~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\contextlib.py", line 148, in __exit__
+    next(self.gen)
+    ~~~~^^^^^^^^^^
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\uvicorn\server.py", line 331, in capture_signals
+    signal.raise_signal(captured_signal)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\asyncio\runners.py", line 157, in _on_sigint
+    raise KeyboardInterrupt()
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\starlette\routing.py", line 701, in lifespan
+    await receive()
+  File "C:\Users\Caspe\Documents\projects\Technical Test\funds-app\venv\Lib\site-packages\uvicorn\lifespan\on.py", line 137, in receive
+    return await self.receive_queue.get()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\asyncio\queues.py", line 186, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+2025-08-12 20:15:11 | INFO     | server:84 - Started server process [32568]
+2025-08-12 20:15:11 | INFO     | server:84 - Started server process [32568]
+2025-08-12 20:15:11 | INFO     | on:48 - Waiting for application startup.
+2025-08-12 20:15:11 | INFO     | on:48 - Waiting for application startup.
+2025-08-12 20:15:11 | INFO     | main:14 - App is starting...
+2025-08-12 20:15:11 | DEBUG    | db:32 - Table 'users' already exists.
+2025-08-12 20:15:11 | INFO     | on:62 - Application startup complete.
+2025-08-12 20:15:11 | INFO     | on:62 - Application startup complete.
+2025-08-12 20:25:12 | INFO     | h11_impl:473 - 127.0.0.1:62583 - "GET /users/ HTTP/1.1" 200
