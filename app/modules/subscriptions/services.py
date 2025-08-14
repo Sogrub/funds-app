@@ -1,6 +1,6 @@
 import time
 from datetime import datetime
-from typing import List
+from typing import List, Optional
 from app.core.notification import NotificationService
 from app.modules.funds.repository import FundsRepository
 from app.modules.subscriptions.models import SubscriptionModel, SubscriptionTypeEnum
@@ -19,8 +19,8 @@ class SubscriptionService:
         self.repository = SubscriptionRepository()
         self.notification = NotificationService()
 
-    def list_subscriptions(self):
-        response = self.repository.list()
+    def list_subscriptions(self, user_id: int, fund_id: int):
+        response = self.repository.list(user_id, fund_id)
         data = response.get("Items", [])
         subscriptions: List[SubscriptionResponseDto] = [SubscriptionResponseDto(**item) for item in data]
         safe_subscriptions = [subscription.model_dump(exclude={"password"}) for subscription in subscriptions]
@@ -66,7 +66,7 @@ class SubscriptionService:
 
         return GenericResponse[SubscriptionResponseDto](message="Subscription created successfully", status="success", data=subscription_created)
 
-    def update_subscription(self, subscription_id: int, type: SubscriptionTypeEnum) -> GenericResponse:
+    def update_subscription(self, subscription_id: int, type: SubscriptionTypeEnum, amount: Optional[int] = None) -> GenericResponse:
         subscription = self.repository.find_by_id(subscription_id)
         if not subscription:
             return GenericResponse[None](message="Subscription not found", status="error", data=None)
@@ -75,10 +75,12 @@ class SubscriptionService:
             return GenericResponse[None](message="Subscription already in this state", status="error", data=None)
         
         subscription_item = subscription.model_dump()
+        new_amount = amount or subscription.amount
         if type == "ACTIVE":
             subscription_item["type"] = "ACTIVE"
             subscription_item["subscription_date"] = datetime.now().isoformat()
             subscription_item["cancellation_date"] = None
+            subscription_item["amount"] = new_amount
         elif type == "CANCELLED":
             subscription_item["type"] = "CANCELLED"
             subscription_item["cancellation_date"] = datetime.now().isoformat()
@@ -90,13 +92,13 @@ class SubscriptionService:
         user = self.users_repository.find_by_id(subscription.user_id)
         if type == "CANCELLED":
             user_balance = user.balance or 0
-            new_balance = user_balance + subscription.amount
+            new_balance = user_balance + new_amount
             self.users_repository.update_balance(subscription.user_id, new_balance)
         else:
             user_balance = user.balance or 0
-            new_balance = user_balance - subscription.amount
+            new_balance = user_balance - new_amount
             self.users_repository.update_balance(subscription.user_id, new_balance)
 
-        self.transactions_repository.save(subscription.user_id, subscription.fund_id, type, subscription.amount)
+        self.transactions_repository.save(subscription.user_id, subscription.fund_id, type, new_amount)
 
         return GenericResponse[SubscriptionResponseDto](message="Subscription updated successfully", status="success", data=updated_subscription)
