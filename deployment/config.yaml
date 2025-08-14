@@ -1,0 +1,89 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: Despliegue de funds-app en AWS EC2 con FastAPI y systemd
+
+Resources:
+  FundsAppInstance:
+    Type: AWS::EC2::Instance
+    Properties:
+      InstanceType: t3.micro
+      ImageId: ami-020cba7c55df1f615
+      KeyName: YOUR_KEY_PAIR_NAME # Reemplazar con tu KeyPair
+      SecurityGroupIds:
+        - !Ref FundsAppSecurityGroup
+      UserData:
+        Fn::Base64: !Sub |
+          #!/bin/bash
+          set -e
+
+          apt update -y
+          apt install -y git curl python3 python3-pip python3-venv
+
+          # Clonar el repo
+          git clone https://github.com/YOUR_USERNAME/funds-app.git /home/ubuntu/funds-app
+          cd /home/ubuntu/funds-app
+
+          # Crear y activar entorno virtual
+          python3 -m venv venv
+          source venv/bin/activate
+
+          # Instalar dependencias
+          pip install --upgrade pip
+          pip install -r requirements.txt
+
+          chown -R ubuntu:ubuntu /home/ubuntu/funds-app/logs
+          chmod -R 755 /home/ubuntu/funds-app/logs
+
+          # Crear archivo .env con claves cifradas o variables de entorno
+          cat <<EOF > /home/ubuntu/funds-app/env/.env
+          APP_NAME=funds-app
+          APP_DESCRIPTION="A simple funds app"
+          APP_ENV=development
+          APP_VERSION=0.0.1
+          APP_DOCS_URL=/docs
+          APP_REDOC_URL=/redoc
+
+          AWS_ACCESS_KEY_ID=${AWS_ACCESS_KEY_ID}   # Pasar por Parameter Store / Secrets Manager
+          AWS_SECRET_ACCESS_KEY=${AWS_SECRET_ACCESS_KEY} # Pasar por Parameter Store / Secrets Manager
+          AWS_REGION=us-east-1
+          AWS_DYNAMODB_ENDPOINT=http://localhost:8000
+          EOF
+
+          # Crear servicio systemd para FastAPI
+          cat <<EOT > /etc/systemd/system/fundsapp.service
+          [Unit]
+          Description=Funds App FastAPI Service
+          After=network.target
+
+          [Service]
+          User=ubuntu
+          WorkingDirectory=/home/ubuntu/funds-app
+          EnvironmentFile=/home/ubuntu/funds-app/env/.env
+          ExecStart=/home/ubuntu/funds-app/venv/bin/python -m uvicorn app.main:app --host 0.0.0.0 --port 8000
+          Restart=always
+
+          [Install]
+          WantedBy=multi-user.target
+          EOT
+
+          # Recargar systemd y habilitar servicio
+          systemctl daemon-reload
+          systemctl enable fundsapp
+          systemctl start fundsapp
+
+  FundsAppSecurityGroup:
+    Type: AWS::EC2::SecurityGroup
+    Properties:
+      GroupDescription: Permitir HTTP y SSH
+      SecurityGroupIngress:
+        - IpProtocol: tcp
+          FromPort: 80
+          ToPort: 80
+          CidrIp: 0.0.0.0/0
+        - IpProtocol: tcp
+          FromPort: 22
+          ToPort: 22
+          CidrIp: 0.0.0.0/0
+        - IpProtocol: tcp
+          FromPort: 8000
+          ToPort: 8000
+          CidrIp: 0.0.0.0/0
