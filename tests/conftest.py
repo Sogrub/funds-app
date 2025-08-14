@@ -1,6 +1,8 @@
 import sys
 import os
 
+from app.core.config import Settings
+
 ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
 ROOT_DIR = os.path.dirname(ROOT_DIR)
 sys.path.insert(0, ROOT_DIR)
@@ -14,6 +16,8 @@ from app.core.db import get_dynamodb_resource
 
 TABLES = ["users", "funds", "subscriptions", "transactions"]
 
+settings = Settings()
+
 @pytest.fixture(scope="module")
 def test_client():
     with TestClient(app) as client:
@@ -25,8 +29,8 @@ def mock_dynamodb_resource():
         dynamodb = boto3.resource(
             "dynamodb",
             region_name="us-east-1",
-            aws_access_key_id="fake",
-            aws_secret_access_key="fake"
+            aws_access_key_id=settings.AWS_ACCESS_KEY_ID,
+            aws_secret_access_key=settings.AWS_SECRET_ACCESS_KEY
         )
 
         for table_name in TABLES:
